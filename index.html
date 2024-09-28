@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sofia's Portfolio - Inicio</title>
-    <link rel="stylesheet" href="/SofiaFernandez2/style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="navbar-container">
             <h1 class="site-title">Sofia's Portfolio</h1>
             <ul class="nav-links">
-                <li><a href="/SofiaFernandez2/index.html">Inicio</a></li>
-                <li><a href="/SofiaFernandez2/about_me.html">Sobre Mí</a></li>
-                <li><a href="/SofiaFernandez2/resume.html">Currículum</a></li>
-                <li class="certifications"><a href="/SofiaFernandez2/certifications_awards.html">Certificaciones</a></li>
-                <li><a href="/SofiaFernandez2/contact.html">Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/about_me.html">Sobre Mí</a></li>
+                <li><a href="../pages/resume.html">Currículum</a></li>
+                <li class="certifications"><a href="../pages/certifications_awards.html">Certificaciones</a></li>
+                <li><a href="../pages/contact.html">Contacto</a></li>
             </ul>
             <div class="menu-toggle">
                 <span class="bar"></span>
@@ -25,46 +25,48 @@
         </div>
     </nav>
 
-    <header class="header">
+    <header class="header" id="index">
         <div class="welcome-message">
             <h2>¡Hola! <br>Soy <strong>Sofia Fernandez</strong></h2>
             <p>Te invito a descubrir mis proyectos y habilidades.</p>
         </div>
-        <img src="img/index.svg" alt="Bienvenida" class="header-image">
+        <img src="../img/index.svg" alt="Bienvenida" class="header-image">
     </header>
 
     <main>
-        <!-- Sección Nosotros -->
-        <section id="about" class="about">
-            <h2>Presentación Personal</h2>
-            <div class="about-list">
-                <img src="/SofiaFernandez2//img/me.jpeg" alt="Foto de Sofia Fernandez">
-                <div class="about-item">
-                    <p>Mi nombre es <strong>Sofia Fernandez</strong>, tengo 24 años y soy de La Plata.</p><br>
-                    <p>Me considero una persona comprometida, curiosa y autodidacta, siempre dispuesta a afrontar nuevos retos y aportar valor a los proyectos que emprendo.</p><br>
-                    <p>Actualmente me encuentro cursando Licenciatura en Gestión de Tecnología de la Información en UADE.</p>
+        <!-- Sección Sobre Mi -->
+        <section class="main_body">
+            <section id="about" class="about">
+                <h2>Presentación Personal</h2>
+                <div class="about-list">
+                    <img src="../img/me.jpeg" alt="Foto de Sofia Fernandez">
+                    <div class="about-item">
+                        <p>Mi nombre es <strong>Sofia Fernandez</strong>, tengo 24 años y soy de La Plata.</p><br>
+                        <p>Me considero una persona comprometida, curiosa y autodidacta, siempre dispuesta a afrontar nuevos retos y aportar valor a los proyectos que emprendo.</p><br>
+                        <p>Actualmente me encuentro cursando Licenciatura en Gestión de Tecnología de la Información en UADE.</p>
+                    </div>
+                    
                 </div>
-                
-            </div>
-        </section>
+            </section>
 
-        <!-- Sección Servicios -->
-        <section id="skills" class="skills">
-            <h2>Conocimientos</h2>
-            <div class="skills-list">
-                <div class="skills-item">
-                    <h3>Diseño y Desarrollo Web</h3>
-                    <p>Conocimientos en <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, <strong>Flask</strong>, <strong>MySQL</strong> y <strong>MongoDB</strong>.</p>
+            <!-- Sección Skills -->
+            <section id="skills" class="skills">
+                <h2>Conocimientos</h2>
+                <div class="skills-list">
+                    <div class="skills-item">
+                        <h3>Diseño y Desarrollo Web</h3>
+                        <p>Conocimientos en <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong>, <strong>Flask</strong>, <strong>MySQL</strong> y <strong>MongoDB</strong>.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3>Análisis de Datos</h3>
+                        <p>Conocimientos en <strong>Excel</strong>, <strong>PowerPoint</strong>, <strong>Tableau</strong>, <strong>Alteryx</strong>, <strong>PowerBi</strong> y <strong>Python orientado a Análisis de Datos</strong>.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3>AWS</h3>
+                        <p>Certificada en <strong>AWS Cloud Practitioner</strong></p>
+                    </div>
                 </div>
-                <div class="skills-item">
-                    <h3>Análisis de Datos</h3>
-                    <p>Conocimientos en <strong>Excel</strong>, <strong>PowerPoint</strong>, <strong>Tableau</strong>, <strong>Alteryx</strong>, <strong>PowerBi</strong> y <strong>Python orientado a Análisis de Datos</strong>.</p>
-                </div>
-                <div class="skills-item">
-                    <h3>AWS</h3>
-                    <p>Certificada en <strong>AWS Cloud Practitioner</strong></p>
-                </div>
-            </div>
+            </section>
         </section>
     </main>
 

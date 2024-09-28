@@ -172,6 +172,10 @@ section h2, section h3{
     padding-bottom: 80px;
 }
 
+section#skills{
+    margin-bottom: -20px;
+}
+
 .skills-list, .experience-list, .education-list {
     display: flex;
     flex-wrap: wrap;
@@ -362,7 +366,10 @@ footer {
     }
 
     section h2 {
-        font-size: 1rem;
+        font-size: 1.4rem!important;
+        text-align: center;
+        margin: 0 auto!important;
+        margin-bottom: 20px !important;
     }
 
     /* Navegación */
@@ -372,7 +379,7 @@ footer {
     }
 
     .nav-links a {
-        font-size: 0.8rem!important;
+        font-size: 1rem!important;
     }
 
     .site-title {
@@ -401,9 +408,28 @@ footer {
 
     /* Header */
     .header {
-        margin-top: 235px;
         flex-direction: column; /* Colocar el contenido en columna */
         padding: 10px;
+    }
+
+    header#index {
+        margin-top: 224px;
+    }
+
+    header#about_me {
+        margin-top: 224px;
+    }
+
+    header#resume {
+        margin-top: 203px;
+    }
+
+    header#certifications {
+        margin-top: 224px;
+    }
+
+    header#contact {
+        margin-top: 224px;
     }
 
     .header-image {
@@ -421,24 +447,13 @@ footer {
     }
 
     .welcome-message p {
-        font-size: 0.9rem; /* Reducir el tamaño del subtítulo */
-    }
-
-    section#about {
-        height: 690px;
+        font-size: 1rem; /* Reducir el tamaño del subtítulo */
     }
 
      /* Sección Nosotros */
 
-     section#about {
-        height: 640px;
-    }
-
-    section h2 {
-        font-size: 1.8rem; /* Ajuste del tamaño de los títulos */
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center; /* Texto centrado */
+    section#about {
+        height: 620px;
     }
 
     .about-list {
@@ -452,10 +467,13 @@ footer {
 
     .about-item {
         width: 260px;
-        font-size: 1.1rem; /* Texto más grande */
         padding: 0;
         text-align: center; /* Centrar el texto */
         margin-top: 0;
+    }
+
+    .about-item p{
+        font-size: 1rem;
     }
 
     .about p{
@@ -477,6 +495,7 @@ footer {
 
     .skills{
         padding-bottom: 40px;
+        margin-bottom: -20px;
     }
 
     .skills-list{
@@ -487,20 +506,27 @@ footer {
 
     /* ABOUT ME */
 
-    section.about_me {
-        min-height: 960px;
+    section#about_me {
+        max-height: 920px !important;
     }
 
     div#about_me{
         text-align: justify;
     }
 
-    .experience-item h3, .service-item h3, .service-item h3 {
-        font-size: 1.4rem; /* Títulos de conocimientos más grandes */
+    .experience-item h3, .service-item h3, .service-item h3, .education-item h3 {
+        font-size: 1.1rem; /* Títulos de conocimientos más grandes */
     }
 
-    .experience-item p, .service-item h3, .service-item h3{
+    .service-item h3, .service-item h3{
         font-size: 0.9rem; /* Texto de conocimientos más grande */
+    }
+
+    .experience-item p, .experience-item li{
+        font-size: 1rem;
+    }
+    section#experience {
+        margin-top: 40px;
     }
 
     /* CONTACTO */
@@ -557,8 +583,27 @@ footer {
     .header {
         flex-direction: column; /* El contenido del header sigue en columna */
         padding: 20px;
-        margin-top: 330px;
         width: auto;
+    }
+
+    header#index {
+        margin-top: 279px;
+    }
+
+    header#about_me {
+        margin-top: 279px;
+    }
+
+    header#resume {
+        margin-top: 251px;
+    }
+
+    header#certifications {
+        margin-top: 279px;
+    }
+
+    header#contact {
+        margin-top: 279px;
     }
 
     .header-image {
@@ -722,10 +767,30 @@ footer {
     .header {
         flex-direction: column; /* El contenido del header sigue en columna */
         padding: 20px;
-        margin-top: 321px;
         min-width: 425px;
         max-width: 768px;
     }
+
+    header#index {
+        margin-top: 240px;
+    }
+
+    header#about_me {
+        margin-top: 240px;
+    }
+
+    header#resume {
+        margin-top: 215px;
+    }
+
+    header#certifications {
+        margin-top: 240px;
+    }
+
+    header#contact {
+        margin-top: 240px;
+    }
+
 
     .header-image {
         max-width: 70%; /* Imagen de bienvenida más grande en pantallas medianas */
@@ -814,8 +879,24 @@ footer {
         font-size: 50px;
     }
 
-    .header{
-        margin-top: 115px;
+    header#index {
+        margin-top: 90px;
+    }
+
+    header#about_me {
+        margin-top: 90px;
+    }
+
+    header#resume {
+        margin-top: 65px;
+    }
+
+    header#certifications {
+        margin-top: 90px;
+    }
+
+    header#contact {
+        margin-top: 90px;
     }
 
     .header-image {
@@ -943,6 +1024,10 @@ footer {
         margin-right: 200px;
     }
 
+    header#resume {
+        margin-top: 52px;
+    }
+
     section#about {
         height: 570px;
     }
@@ -1031,7 +1116,20 @@ footer {
     }
 
     section#about {
-        height: 90px;
+        height: 1140px;
+    }
+
+    section#about_me {
+        height: 1200px !important;
+        max-height: 1200px!important;
+    }
+
+    section#experience{
+        height: 1260px;
+    }
+
+    section#certifications, section#contact {
+        padding-bottom: 100px;
     }
 
     .about-item {
