@@ -652,11 +652,7 @@ img.contact_img {
         padding-right: 180px;
     }
 
-    img.index-pic{
-        width: 20%;
-    }
-
-    div#about_page img{
+    img.index-pic, div#about_page img{
         width: 20%;
     }
 
