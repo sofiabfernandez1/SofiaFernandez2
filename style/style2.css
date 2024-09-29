@@ -282,6 +282,7 @@ section p:last-child {
 }
 
 .contenido-item.targets li {
+    font-size: 1.1rem;
     text-align: justify;
     margin-bottom: 1em; 
 }
@@ -329,6 +330,11 @@ button.about_cv:hover, .contact-form button:hover {
 
 div#certifications a{
     border-bottom: 1px solid;
+}
+
+div#certifications h3{
+    text-align: justify;
+
 }
 
 
