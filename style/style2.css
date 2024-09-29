@@ -248,7 +248,7 @@ div#main_description .contenido-item {
 .contenido-item.targets {
     flex: 0 1 calc(28% - 30px); 
     background-color: #ffff;
-    padding: 60px 40px;
+    padding: 40px 60px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -507,8 +507,18 @@ img.contact_img {
         flex: 0 1 calc(100% - 30px);
     }
 
+    .contenido-item.targets.skills {
+        flex: 0 1 calc(100% - 30px);
+        padding: 60px 26px;
+    }
+
+    div#skills h3 {
+        margin-top: 0;
+    }
+
     .contenido-item.targets img {
-        display: none;
+        width: 80%;
+        height: 250px;
     }
 
     .contact_body {
@@ -584,12 +594,13 @@ img.contact_img {
     }
 
     .contenido-item.targets {
-        flex: 0 1 calc(52% - 30px);
+        flex: 0 1 calc(80% - 30px);
     }
 
     
     .contenido-item.targets.experience{
         flex: 0 1 calc(100% - 30px);
+        padding: 40px 60px;
     }
 
     /* INDEX */
@@ -635,6 +646,10 @@ img.contact_img {
     .contenido-item.targets {
         flex: 0 1 calc(51% - 30px);
     }
+
+    .contenido-item.targets.experience{
+        padding: 40px 60px;
+    }
 }
 
 @media (min-width: 1440px) and (max-width: 2560px) {
@@ -666,6 +681,10 @@ img.contact_img {
 
     div#skills .contenido-item.targets {
         flex: 0 1 calc(20% - 30px);
+    }
+
+    .contenido-item.targets.experience{
+        padding: 40px 60px;
     }
 
 }
